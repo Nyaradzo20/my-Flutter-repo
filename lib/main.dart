@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
@@ -25,3 +27,12 @@ void main() => runApp(MaterialApp(
         ),
       ),
     ));
+class extends StatelessWidget{
+  @override
+Widget build(
+  BuildContext context)
+
+{
+  return Container();
+}
+}
