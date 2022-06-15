@@ -22,13 +22,13 @@ class Home extends StatelessWidget {
             fontSize: 50.0,
             fontWeight: FontWeight.w600,
             letterSpacing: 2.0,
-            color: Colors.greenAccent,
+            color: Colors.green,
           ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Text('click me'),
+        child: Text('click'),
         backgroundColor: Colors.amber,
       ),
     );
