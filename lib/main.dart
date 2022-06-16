@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('hello'),
         centerTitle: true,
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.green,
       ),
       body: Center(
         child: Icon(
