@@ -17,7 +17,9 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: FlatButton(
-          onPressed: () {},
+          onPressed: () {
+            print('excuse me'),
+          },
           child: Text('hey'),
           color: Colors.pinkAccent,
         ),
