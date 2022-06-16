@@ -19,6 +19,7 @@ class Home extends StatelessWidget {
         child: Icon(
           Icons.airport_shuttle_outlined,
           color: Colors.yellowAccent,
+          size: 50.0,
         ),
       ),
       floatingActionButton: FloatingActionButton(
