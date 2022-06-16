@@ -13,11 +13,11 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('MTN'),
         centerTitle: true,
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.amber,
       ),
       body: Center(
-          child: Icon(
-            Icons.airpot_shuttle,
+        child: Icon(
+            Icons.airport_shuttle_outlined,
             color: Colors.brown,
           ),
         ),
