@@ -17,7 +17,9 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: RaisedButton.icon(
-          onPressed: () {},
+          onPressed: () {
+            print('email');
+          },
           icon: Icon(Icons.mail),
           label: Text('click'),
           color: Colors.pink,
